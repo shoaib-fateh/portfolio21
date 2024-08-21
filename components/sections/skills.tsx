@@ -10,6 +10,10 @@ import {
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import { useInView } from "react-intersection-observer";
+import {
+  Frontend_skills,
+  Backend_skills,
+} from "@/components/contents/global-data";
 
 interface Props {
   src: string;
@@ -44,90 +48,6 @@ const SkillDataProvider = ({ src, width, height, index }: Props) => {
 };
 
 const SkillsSection = () => {
-  let width_height = {
-    width: 80,
-    height: 80,
-  };
-  const Frontend_skill = [
-    {
-      skill_name: "Html 5",
-      Image: "/html.png",
-      width_height,
-    },
-    {
-      skill_name: "Css",
-      Image: "/css.png",
-      width_height,
-    },
-    {
-      skill_name: "Java Script",
-      Image: "/js.png",
-      width_height,
-    },
-    {
-      skill_name: "Tailwind Css",
-      Image: "/tailwind.png",
-      width_height,
-    },
-    {
-      skill_name: "Bootstrap",
-      Image: "/boostrap.jpeg",
-      width_height,
-    },
-    {
-      skill_name: "React",
-      Image: "/react.png",
-      width_height,
-    },
-    {
-      skill_name: "Redux",
-      Image: "/redux.png",
-      width_height,
-    },
-    {
-      skill_name: "Type Script",
-      Image: "/ts.png",
-      width_height,
-    },
-    {
-      skill_name: "Next js 13",
-      Image: "/next.png",
-      width_height,
-    },
-  ];
-  const Backend_skill = [
-    {
-      skill_name: "Material UI",
-      Image: "/mui.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Node js",
-      Image: "/node-js.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Github",
-      Image: "/github.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Git",
-      Image: "/git.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Postger SQL",
-      Image: "/postger.png",
-      width: 70,
-      height: 70,
-    },
-  ];
-
   return (
     <div
       id="skills"
@@ -159,18 +79,18 @@ const SkillsSection = () => {
       </div>
 
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Frontend_skill.map((image, index) => (
+        {Frontend_skills.map((image, index) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
-            width={image.width_height.width}
-            height={image.width_height.height}
+            width={image.width}
+            height={image.height}
             index={index}
           />
         ))}
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Backend_skill.map((image, index) => (
+        {Backend_skills.map((image, index) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
