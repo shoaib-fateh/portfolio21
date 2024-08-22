@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import ProjectCard from "@/components/ProjectCard";
-import { projectDetails } from "@/constants/Project";
+import { projectDetails } from "@/data/Project";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
