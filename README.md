@@ -1,6 +1,3 @@
-Here’s an updated version of the README.md file with your information and a note about animations:
-
-````markdown
 # Shoaib Fateh's Portfolio
 
 Welcome to my personal portfolio! This web application showcases my previous projects, accomplishments, skills, and more, making it easy for you to see my work and connect with me.
@@ -28,10 +25,10 @@ Check out the live version of my portfolio here: [shoaibfateh21.vercel.app](http
 To get a local copy up and running follow these simple steps:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/shoaibfateh21/portfolio21.git
    ```
-````
 
 2. Navigate to the project directory:
    ```bash
@@ -66,7 +63,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For more information, feel free to contact me or check out my other projects. Happy browsing!
 
-```
-
 You can incorporate animations using libraries like **Framer Motion** or **React Spring** in your React project to enhance the user experience. If you want to add specific animations, let me know, and I can provide more details on how to implement them!
-```
