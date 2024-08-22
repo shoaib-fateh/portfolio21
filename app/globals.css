@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .cursive {
   font-family: "Cedarville Cursive", cursive;
 }
@@ -54,8 +53,8 @@
 }
 
 .scrollbar-hidden {
-  -ms-overflow-style: none; 
-  scrollbar-width: none; 
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 .scrollbar-hidden::-webkit-scrollbar {
   display: none;
