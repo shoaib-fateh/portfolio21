@@ -62,5 +62,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 For more information, feel free to contact me or check out my other projects. Happy browsing!
-
-You can incorporate animations using libraries like **Framer Motion** or **React Spring** in your React project to enhance the user experience. If you want to add specific animations, let me know, and I can provide more details on how to implement them!
