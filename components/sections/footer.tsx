@@ -6,7 +6,7 @@ import MagicButton from "@/components/MagicButton";
 const Footer = () => {
   return (
     <footer
-      className="w-full pt-20 pb-10 z-10 relative text-white"
+      className="w-full pt-20 pb-10 z-[99999] relative text-white"
       id="contact"
     >
       {/* background grid */}
@@ -15,13 +15,19 @@ const Footer = () => {
           src="/footer-grid.svg"
           alt="grid"
           className="w-full h-full opacity-50 "
+          style={{
+            backgroundImage: "radial-gradient(#150276 -25%, transparent 65%)",
+          }}
         />
       </div>
 
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+        <h1 className="md:text-5xl text-4xl font-bold text-white text-center lg:max-w-[45vw]">
+          Ready to take{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            your
+          </span>{" "}
+          digital presence to the next level?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Reach out to me today and let&apos;s discuss how I can help you
