@@ -40,7 +40,7 @@ To get a local copy up and running follow these simple steps:
    ```
 4. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## 🤝 Contributing
@@ -50,14 +50,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ## ⭐️ Show Your Support
 
 If you like this project, follow me on GitHub and give it a star! Your support helps me build more cool stuff. Thank you!
-
-## 🙏 Acknowledgments
-
-Special thanks to the Microverse Community, my stand-up team, and coding partners who helped make this project possible.
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
