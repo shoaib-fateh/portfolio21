@@ -62,10 +62,7 @@ const Navbar = () => {
 
         <div className=" md:flex  hidden w-[70%] h-auto border border-[#7042f861] bg-[#0300145e]  md:px-[20px] md:py-[10px] md:rounded-full text-gray-200 ">
           <div className="flex md:flex-row md:items-center md:justify-between lg:justify-around w-full gap-5">
-            <a
-              href="#about-me"
-              className="cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-purple-500"
-            >
+            <a className="cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-purple-500">
               About me
             </a>
             <a
@@ -87,10 +84,7 @@ const Navbar = () => {
             >
               Get My Resume{" "}
             </a>
-            <a
-              href="#contact"
-              className="cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-purple-500"
-            >
+            <a className="cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-purple-500">
               Contact
             </a>
           </div>
@@ -163,11 +157,6 @@ const Navbar = () => {
                 >
                   Projects
                 </Link>
-              </li>
-              <li className="bg-gray-100 h-[50px] items-center w-[60%] text-center px-[5px] py-[15px] border border-[fuchsia-900] rounded-3xl">
-                <a href="/Resume.pdf" download="Resume">
-                  Get My Resume{" "}
-                </a>
               </li>
               <li className="bg-gray-100  h-[50px] items-center w-[60%] text-center p-[15px] border border-[fuchsia-900] rounded-3xl">
                 <Link href="#contact" className="cursor-pointer">

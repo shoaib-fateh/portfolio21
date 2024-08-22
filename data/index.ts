@@ -79,21 +79,6 @@ export const Skill_data = [
   },
 ];
 
-export const Socials = [
-  {
-    name: "LinkedIn",
-    src: "/linkedin.png",
-  },
-  {
-    name: "Slack",
-    src: "/slack.png",
-  },
-  {
-    name: "Github",
-    src: "/github.png",
-  },
-];
-
 export const socialMedia = [
   {
     id: 1,
