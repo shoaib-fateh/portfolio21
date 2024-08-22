@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import StarsCanvas from "@/components/main/StarBackground";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Navbar from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,15 +23,16 @@ export default function RootLayout({
         className={`${inter.className} bg-[#000113] overflow-y-scroll overflow-x-hidden`}
       >
         <StarsCanvas />
+        <Navbar />
         {children}
-        {/* <video
+        <video
           autoPlay
           muted
           loop
           className="rotate-180 absolute top-[-340px] left-0 z-[-1] w-full h-full object-cover"
         >
           <source src="./blackhole.webm" type="video/webm" />
-        </video> */}
+        </video>
         <SpeedInsights />
       </body>
     </html>
