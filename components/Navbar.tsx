@@ -1,17 +1,10 @@
 "use client";
 import { useState, useEffect } from "react";
-import {
-  FaBars,
-  FaTimes,
-  FaTwitter,
-  FaGithub,
-  FaLinkedin,
-  FaDiscord,
-} from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { socialMedia } from "@/data";
+import { SocialMedia } from "./reuseable";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -92,14 +85,7 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex md:flex-row md:justify-between  md:gap-5 md:text-gray-200 md:text-[24px]">
-          {socialMedia.map((info) => (
-                  <div
-                    key={info.id}
-                    className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
-                  >
-                    <img src={info.img} alt="icons" width={20} height={20} />
-                  </div>
-                ))}
+          <SocialMedia />
         </div>
 
         {/* Mobile menu button */}
@@ -164,14 +150,7 @@ const Navbar = () => {
                 transition={{ delay: 0.2 }}
                 className="flex flex-row gap-5 text-gray-200 text-[24px]"
               >
-                {socialMedia.map((info) => (
-                  <div
-                    key={info.id}
-                    className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
-                  >
-                    <img src={info.img} alt="icons" width={20} height={20} />
-                  </div>
-                ))}
+                <SocialMedia />
               </motion.div>
             </motion.ul>
           </div>

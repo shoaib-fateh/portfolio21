@@ -82,14 +82,17 @@ export const Skill_data = [
 export const socialMedia = [
   {
     id: 1,
+    url: "",
     img: "/social/git.svg",
   },
   {
     id: 2,
+    url: "",
     img: "/social/twit.svg",
   },
   {
     id: 3,
+    url: "",
     img: "/social/link.svg",
   },
 ];
