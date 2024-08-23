@@ -47,7 +47,7 @@ const Footer = () => {
         </p>
 
         <div className="flex items-center md:gap-3 gap-6 mt-5 md:ml-0">
-          <SocialMedia />
+          <SocialMedia key="3" />
         </div>
       </div>
     </footer>

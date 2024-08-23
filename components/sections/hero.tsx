@@ -58,7 +58,7 @@ const HeroSection = () => {
           animate={{ opacity: 1 }}
           className="flex flex-row gap-5 text-gray-200 text-[22px] md:ml-0 mx-auto"
         >
-          <SocialMedia />
+          <SocialMedia key="2" />
         </motion.div>
       </div>
 

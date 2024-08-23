@@ -78,7 +78,7 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex md:flex-row md:justify-between  md:gap-5 md:text-gray-200 md:text-[24px]">
-          <SocialMedia />
+          <SocialMedia key="1" />
         </div>
 
         {/* Mobile menu button */}
