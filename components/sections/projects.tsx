@@ -1,5 +1,4 @@
 "use client";
-import React, { useState, useEffect } from "react";
 import ProjectCard from "@/components/ProjectCard";
 import { projectDetails } from "@/data/Project";
 import Slider from "react-slick";
@@ -7,26 +6,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Projects = () => {
-  const [showPopUp, setShowPopUp] = useState(false);
-  const [selectedProject, setSelectedProject] = useState(null);
-
-  const togglePopUp = (project: any) => {
-    setSelectedProject(project);
-    setShowPopUp(true);
-  };
-
-  const closePopUp = () => {
-    setShowPopUp(false);
-  };
-
-  useEffect(() => {
-    if (showPopUp) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
-  }, [showPopUp]);
-
   const settings = {
     accessibility: true,
     dots: true,
@@ -76,7 +55,6 @@ const Projects = () => {
                 src={project.image}
                 title={project.name}
                 description={project.description[0]}
-                onReadMoreClick={() => togglePopUp(project)}
               />
             ))}
           </Slider>

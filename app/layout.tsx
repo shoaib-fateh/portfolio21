@@ -22,7 +22,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-[#000113] overflow-y-scroll overflow-x-hidden`}
       >
-        <StarsCanvas />
+        {/* <StarsCanvas /> */}
         <Navbar />
         {children}
         <video
@@ -33,7 +33,7 @@ export default function RootLayout({
         >
           <source src="./video-backgrounds/blackhole.webm" type="video/webm" />
         </video>
-        <SpeedInsights />
+        {/* <SpeedInsights /> */}
       </body>
     </html>
   );

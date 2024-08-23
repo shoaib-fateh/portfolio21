@@ -46,7 +46,7 @@ const Footer = () => {
           Copyright © 2024 Shoaib Fateh
         </p>
 
-        <div className="flex items-center md:gap-3 gap-6">
+        <div className="flex items-center md:gap-3 gap-6 mt-5 md:ml-0">
           <SocialMedia />
         </div>
       </div>

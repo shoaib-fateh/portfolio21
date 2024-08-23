@@ -71,13 +71,6 @@ const Navbar = () => {
             >
               Projects
             </a>
-            <a
-              href="\Resume.pdf"
-              download="Resume"
-              className="cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-purple-500"
-            >
-              Get My Resume{" "}
-            </a>
             <a className="cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-purple-500">
               Contact
             </a>
@@ -105,12 +98,12 @@ const Navbar = () => {
 
         {/* Responsive Menu */}
         {isMenuOpen && (
-          <div className="w-full absolute top-[65px] left-0 bg-[#000000ec] items-center justify-center border border-[#7042f861] rounded-b-lg py-2 px-4 h-screen p-[10%]">
+          <div className="w-full absolute top-[65px] left-0 bg-[#030014] items-center justify-center border border-[#7042f861] rounded-b-lg py-2 px-4 h-screen p-[10%]">
             <motion.ul
               initial={{ opacity: 0 }}
               animate={{ opacity: 2 }}
               transition={{ delay: 0.2 }}
-              className="flex flex-col items-center justify-center bg-[#2b1537ec] shadow-2xl text-fuchsia-900  h-[80%] w-[80%] border border-[gray-200] rounded-3xl p-[10%] gap-9 m-[10%]"
+              className="flex flex-col items-center justify-center  shadow-2xl   h-[80%] w-[80%] border border-[gray-200] rounded-3xl p-[10%] gap-9 m-[10%]"
             >
               <li className="bg-gray-100  h-[50px] items-center w-[60%] text-center p-[15px] border border-[fuchsia-900] rounded-3xl">
                 <Link

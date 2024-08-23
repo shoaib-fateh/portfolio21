@@ -17,15 +17,15 @@ const HeroSection = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full relative z-[20]"
+      className="flex flex-row items-center justify-center md:px-20 sm:px-5 mt-40 w-full relative z-[20]"
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto md:text-start text-center">
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
+          className="Welcome-box py-[8px] px-[10px] border border-[#7042f88b] opacity-[0.9] md:ml-0 mx-auto"
         >
-          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-7" />
-          <h1 className="Welcome-text text-[13px]">Full-Stack Visionary</h1>
+          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
+          <h1 className="Welcome-text text-[13px]">NEXT.JS Developer</h1>
         </motion.div>
 
         <motion.div
@@ -57,8 +57,7 @@ const HeroSection = () => {
         <motion.div
           initial={{ opacity: 1 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.4 }}
-          className="flex flex-row gap-5 text-gray-200 text-[22px]"
+          className="flex flex-row gap-5 text-gray-200 text-[22px] md:ml-0 mx-auto"
         >
           <SocialMedia />
         </motion.div>
@@ -66,7 +65,7 @@ const HeroSection = () => {
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
+        className="w-full h-full md:flex justify-center items-center hidden"
       >
         <Image
           src="/mainIconsdark.svg"

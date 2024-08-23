@@ -56,7 +56,7 @@ const EncryptionSection = () => {
           autoPlay
           playsInline
           preload="false"
-          className="w-full h-auto"
+          className="w-full h-auto md:scale-100 scale-[2.5]"
           src="/video-backgrounds/encryption.webm"
         />
       </div>

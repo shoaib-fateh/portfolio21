@@ -5,10 +5,9 @@ interface Props {
   src: string;
   title: string;
   description: string;
-  onReadMoreClick: () => void;
 }
 
-const ProjectCard = ({ src, title, description, onReadMoreClick }: Props) => {
+const ProjectCard = ({ src, title, description }: Props) => {
   return (
     <div className="flex flex-col relative items-center overflow-hidden rounded-3xl shadow-lg border border-[#2A0E61] h-[500px] mx-[2%] py-[5px]">
       <Image
@@ -28,7 +27,7 @@ const ProjectCard = ({ src, title, description, onReadMoreClick }: Props) => {
         </p>
       </div>
 
-      <button className="border font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
+      <button className="border font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full mb-5">
         <span>read more</span>
         <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
       </button>
