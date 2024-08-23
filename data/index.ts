@@ -82,17 +82,17 @@ export const Skill_data = [
 export const socialMedia = [
   {
     id: 1,
-    url: "",
+    url: "https://github.com/shoaib-fateh",
     img: "/social/git.svg",
   },
   {
     id: 2,
-    url: "",
+    url: "https://twitter.com/shoaibfateh21",
     img: "/social/twit.svg",
   },
   {
     id: 3,
-    url: "",
+    url: "https://www.linkedin.com/in/shoaib-fateh/",
     img: "/social/link.svg",
   },
 ];
