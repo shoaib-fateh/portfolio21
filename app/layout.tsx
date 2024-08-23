@@ -22,18 +22,18 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-[#000113] overflow-y-scroll overflow-x-hidden`}
       >
-        <StarsCanvas />
+        {/* <StarsCanvas /> */}
         <Navbar />
         {children}
-        <video
+        {/* <video
           autoPlay
           muted
           loop
           className="rotate-180 absolute top-[-340px] left-0 z-[-1] w-full h-full object-cover"
         >
           <source src="./blackhole.webm" type="video/webm" />
-        </video>
-        <SpeedInsights />
+        </video> */}
+        {/* <SpeedInsights /> */}
       </body>
     </html>
   );

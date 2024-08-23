@@ -11,6 +11,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { socialMedia } from "@/data";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -91,20 +92,14 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex md:flex-row md:justify-between  md:gap-5 md:text-gray-200 md:text-[24px]">
-          <a
-            href="https://www.linkedin.com/in/shoaib-fateh"
-            target="_blank"
-            className=" hover:text-purple-500"
-          >
-            <FaLinkedin />
-          </a>
-          <a
-            href="https://www.github.com/shoaib-fateh"
-            target="_blank"
-            className=" hover:text-purple-500"
-          >
-            <FaGithub />
-          </a>
+          {socialMedia.map((info) => (
+                  <div
+                    key={info.id}
+                    className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+                  >
+                    <img src={info.img} alt="icons" width={20} height={20} />
+                  </div>
+                ))}
         </div>
 
         {/* Mobile menu button */}
@@ -169,34 +164,14 @@ const Navbar = () => {
                 transition={{ delay: 0.2 }}
                 className="flex flex-row gap-5 text-gray-200 text-[24px]"
               >
-                <a
-                  href="https://www.linkedin.com/in/tajul-afreen"
-                  target="_blank"
-                  className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
-                >
-                  <FaLinkedin />
-                </a>
-                <a
-                  href="https://www.github.com/tajulafreen"
-                  target="_blank"
-                  className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
-                >
-                  <FaGithub />
-                </a>
-                <a
-                  href="https://discord.gg/4ffR2vaHAG"
-                  target="_blank"
-                  className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
-                >
-                  <FaDiscord />
-                </a>
-                <a
-                  href="https://www.twitter.com/tajulafreen"
-                  target="_blank"
-                  className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
-                >
-                  <FaTwitter />
-                </a>
+                {socialMedia.map((info) => (
+                  <div
+                    key={info.id}
+                    className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+                  >
+                    <img src={info.img} alt="icons" width={20} height={20} />
+                  </div>
+                ))}
               </motion.div>
             </motion.ul>
           </div>
