@@ -54,7 +54,7 @@ const Navbar = () => {
           </span>
         </a>
 
-        <div className=" md:flex  hidden w-[70%] h-auto border border-[#7042f861] bg-[#0300145e]  md:px-[20px] md:py-[10px] md:rounded-full text-gray-200 ">
+        <div className=" md:flex  hidden w-[50%] h-auto border border-[#7042f861] bg-[#0300145e]  md:px-[20px] md:py-[10px] md:rounded-full text-gray-200 ">
           <div className="flex md:flex-row md:items-center md:justify-between lg:justify-around w-full gap-5">
             <a className="cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-purple-500">
               About me
