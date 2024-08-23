@@ -25,7 +25,7 @@ const SkillsSection = () => {
       <div className="w-full h-auto flex flex-col items-center justify-center">
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[10px] border border-[#7042f88b] opacity-[0.9] md:ml-0 mx-auto"
+          className="Welcome-box py-[8px] px-[10px] border border-[#7042f88b] opacity-[0.9] mx-auto"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">Think Different</h1>
