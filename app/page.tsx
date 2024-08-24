@@ -16,7 +16,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://avatars.githubusercontent.com/u/115332099?v=4"
+          content="https://raw.githubusercontent.com/shoaib-fateh/portfolio21/main/preview.png"
         />
         <meta property="og:site_name" content="Shoaib Fateh's Portfolio" />
         <meta
@@ -39,7 +39,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://avatars.githubusercontent.com/u/115332099?v=4"
+          content="https://raw.githubusercontent.com/shoaib-fateh/portfolio21/main/preview.png"
         />
       </Head>
       <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">

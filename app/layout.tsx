@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "Shoaib Fateh's Portfolio",
     images: [
       {
-        url: "https://avatars.githubusercontent.com/u/115332099?v=4",
+        url: "https://raw.githubusercontent.com/shoaib-fateh/portfolio21/main/preview.png",
         width: 1200,
         height: 630,
         alt: "Shoaib Fateh's Portfolio",
@@ -33,10 +33,10 @@ export const metadata: Metadata = {
       "Explore the portfolio of Shoaib Fateh, a professional in web development and graphic design.",
     images: [
       {
-        url: "https://avatars.githubusercontent.com/u/115332099?v=4",
+        url: "https://raw.githubusercontent.com/shoaib-fateh/portfolio21/main/preview.png",
         width: 1200,
         height: 630,
-        alt: "Shoaib Fateh's Twitter Avatar",
+        alt: "Shoaib Fateh's Portfolio",
       },
     ],
   },
