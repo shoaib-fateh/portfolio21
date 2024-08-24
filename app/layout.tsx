@@ -8,8 +8,38 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "This is my Portfolio",
+  title: "Shoaib Fateh - Portfolio",
+  description:
+    "Shoaib Fateh is a versatile professional with expertise in full-stack development and graphic design, showcasing dynamic web applications and compelling designs.",
+  openGraph: {
+    title: "Shoaib Fateh - Portfolio",
+    description:
+      "Versatile professional with expertise in React.js, Next.js, Flutter, and graphic design. Explore Shoaib's portfolio and projects.",
+    url: "https://shoaibfateh21.vercel.app/",
+    siteName: "Shoaib Fateh's Portfolio",
+    images: [
+      {
+        url: "https://avatars.githubusercontent.com/u/115332099?v=4",
+        width: 1200,
+        height: 630,
+        alt: "Shoaib Fateh's Portfolio",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Shoaib Fateh - Portfolio",
+    description:
+      "Explore the portfolio of Shoaib Fateh, a professional in web development and graphic design.",
+    images: [
+      {
+        url: "https://avatars.githubusercontent.com/u/115332099?v=4",
+        width: 1200,
+        height: 630,
+        alt: "Shoaib Fateh's Twitter Avatar",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
