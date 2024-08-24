@@ -1,4 +1,4 @@
-# Shoaib Fateh's Portfolio
+![image](https://github.com/user-attachments/assets/e02ca863-6eb5-40f1-8767-66143c3246c5)# Shoaib Fateh's Portfolio
 
 Welcome to my personal portfolio! This web application showcases my previous projects, accomplishments, skills, and more, making it easy for you to see my work and connect with me.
 
