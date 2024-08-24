@@ -2,6 +2,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import MagicButton from "@/components/MagicButton";
 import { SocialMedia } from "../reuseable";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
     >
       {/* background grid */}
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
-        <img
+        <Image
           src="/footer-grid.svg"
           alt="grid"
           className="w-full h-full opacity-50 "
@@ -47,7 +48,7 @@ const Footer = () => {
         </p>
 
         <div className="flex items-center md:gap-3 gap-6 mt-5 md:ml-0">
-          <SocialMedia key="3" />
+          <SocialMedia key="3 " />
         </div>
       </div>
     </footer>

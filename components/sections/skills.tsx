@@ -9,10 +9,7 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 
-import {
-  Frontend_skills,
-  Backend_skills,
-} from "@/components/contents/global-data";
+import { Frontend_skill, Backend_skill } from "@/data/index";
 import SkillDataProvider from "@/components/SkillDataProvider";
 
 const SkillsSection = () => {
@@ -47,7 +44,7 @@ const SkillsSection = () => {
       </div>
 
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Frontend_skills.map((image, index) => (
+        {Frontend_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
@@ -58,7 +55,7 @@ const SkillsSection = () => {
         ))}
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Backend_skills.map((image, index) => (
+        {Backend_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
