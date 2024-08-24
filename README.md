@@ -5,7 +5,6 @@ Welcome to my personal portfolio! This web application showcases my previous pro
 ## 🚀 Live Demo
 
 Check out the live version of my portfolio here: [shoaibfateh21.vercel.app](https://shoaibfateh21.vercel.app)
-<img src="./preview.png" alt="preview" />
 
 ## 🛠 Built With
 
